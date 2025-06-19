@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp1"
+             x:Class="MauiApp1.JuevesPage"
+             Title="LJueveunes">
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label Text="Amor eterno - Gustavo Adolfo Bécquer"
+                   FontSize="30"
+                   TextColor="#FF0E0E11"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="&#10;Podrá nublarse el sol eternamente;
+&#10;Podrá secarse en un instante el mar;
+&#10;Podrá romperse el eje de la tierra
+&#10;Como un débil cristal.
+&#10;&#10;¡todo sucederá! Podrá la muerte
+&#10;Cubrirme con su fúnebre crespón;
+&#10;Pero jamás en mí podrá apagarse
+&#10;La llama de tu amor."
+                   FontSize="20"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

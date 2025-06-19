@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp1"
+             x:Class="MauiApp1.MartesPage"
+             Title="Martes">
+    <ScrollView>
+
+        <VerticalStackLayout Padding="20">
+            <Label Text="Si me quieres, quiéreme entera-Dulce María Loynaz"
+                   FontSize="30"
+                   TextColor="#FF0E0E11"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="&#10;Si me quieres, quiéreme entera,
+&#10;no por zonas de luz o sombra…
+&#10;Si me quieres, quiéreme negra
+&#10;y blanca, Y gris, verde, y rubia,
+&#10;y morena…
+&#10;&#10;Quiéreme día,
+&#10;quiéreme noche…
+&#10;¡Y madrugada en la ventana abierta!…
+&#10;Si me quieres, no me recortes:
+&#10;¡Quiéreme toda… O no me quieras!"
+                   FontSize="20"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

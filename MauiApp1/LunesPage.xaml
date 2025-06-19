@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp1"
+             x:Class="MauiApp1.LunesPage"
+             Title="Lunes">
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label Text="El doliente - Oscar Hahn"
+                   FontSize="30"
+                   TextColor="#FF0E0E11"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="&#10;Pasarán estos días como pasan
+                &#10;todos los días malos de la vida
+                &#10;Amainarán los vientos que te arrasan
+                &#10;Se estancará la sangre de tu herida
+                &#10;&#10;El alma errante volverá a su nido
+&#10;Lo que ayer se perdió será encontrado
+&#10;El sol será sin mancha concebido
+&#10;y saldrá nuevamente en tu costado
+&#10;&#10;
+&#10;Y dirás frente al mar: ¿Cómo he podido
+&#10;anegado sin brújula y perdido
+&#10;llegar a puerto con las velas rotas?
+&#10;&#10;
+&#10;Y una voz te dirá: ¿Que no lo sabes?
+&#10;El mismo viento que rompió tus naves
+&#10;es el que hace volar a las gaviotas"
+                   FontSize="20"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp1"
+             x:Class="MauiApp1.SabadoPage"
+             Title="Sabado">
+  <ScrollView>
+    <VerticalStackLayout Padding="20">
+      <Label Text="Las seis cuerdas - Federico García Lorca"
+             FontSize="30"
+             TextColor="#FF0E0E11"
+             HorizontalTextAlignment="Center"/>
+      <Label Text="&#10;La guitarra
+&#10;hace llorar a los sueños.
+&#10;El sollozo de las almas
+&#10;perdidas
+&#10;se escapa por su boca
+&#10;redonda.
+&#10;&#10;Y como la tarántula,
+&#10;teje una gran estrella
+&#10;para cazar suspiros,
+&#10;que flotan en su negro
+&#10;aljibe de madera."
+             FontSize="20"
+             TextColor="Black"
+             HorizontalTextAlignment="Center"/>
+    </VerticalStackLayout>
+  </ScrollView>
+</ContentPage>

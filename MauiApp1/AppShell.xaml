@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1"
+    Shell.FlyoutBehavior="Flyout"
+    Title="MauiApp1">
+
+    <FlyoutItem Title="Lunes" Icon="monday.png">
+        <ShellContent ContentTemplate="{DataTemplate local:LunesPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Martes" Icon="tuesday.png">
+        <ShellContent ContentTemplate="{DataTemplate local:MartesPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Miércoles" Icon="wednesday.png">
+        <ShellContent ContentTemplate="{DataTemplate local:MiercolesPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Jueves" Icon="thursday.png">
+        <ShellContent ContentTemplate="{DataTemplate local:JuevesPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Viernes" Icon="friday.png">
+        <ShellContent ContentTemplate="{DataTemplate local:ViernesPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Sábado" Icon="saturday.png">
+        <ShellContent ContentTemplate="{DataTemplate local:SabadoPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Domingo" Icon="sunday.png">
+        <ShellContent ContentTemplate="{DataTemplate local:DomingoPage}" />
+    </FlyoutItem>
+
+</Shell>
