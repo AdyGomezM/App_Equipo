@@ -11,7 +11,7 @@
         <ShellContent ContentTemplate="{DataTemplate local:LunesPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Tailandia" Icon="tuesday.png">
+    <FlyoutItem Title="Suiza" Icon="tuesday.png">
         <ShellContent ContentTemplate="{DataTemplate local:MartesPage}" />
     </FlyoutItem>
 
@@ -23,11 +23,11 @@
         <ShellContent ContentTemplate="{DataTemplate local:JuevesPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Mexico" Icon="friday.png">
+    <FlyoutItem Title="Tailandia" Icon="friday.png">
         <ShellContent ContentTemplate="{DataTemplate local:ViernesPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Suiza" Icon="saturday.png">
+    <FlyoutItem Title="Mexico" Icon="saturday.png">
         <ShellContent ContentTemplate="{DataTemplate local:SabadoPage}" />
     </FlyoutItem>
 
