@@ -3,27 +3,55 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MauiApp1"
              x:Class="MauiApp1.MartesPage"
-             Title="Martes">
-    <ScrollView>
+             Title="Suiza"
+             BackgroundColor="#FFF3E0">
 
-        <VerticalStackLayout Padding="20">
-            <Label Text="Si me quieres, quiéreme entera-Dulce María Loynaz"
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="25">
+
+            <!-- Bandera de Suiza -->
+            <Image Source="https://flagcdn.com/w320/ch.png"
+                   HeightRequest="100"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Suiza: Neutralidad, montañas y diversidad"
                    FontSize="30"
-                   TextColor="#FF0E0E11"
+                   FontAttributes="Bold"
+                   TextColor="#0B3D91"
                    HorizontalTextAlignment="Center"/>
-            <Label Text="&#10;Si me quieres, quiéreme entera,
-&#10;no por zonas de luz o sombra…
-&#10;Si me quieres, quiéreme negra
-&#10;y blanca, Y gris, verde, y rubia,
-&#10;y morena…
-&#10;&#10;Quiéreme día,
-&#10;quiéreme noche…
-&#10;¡Y madrugada en la ventana abierta!…
-&#10;Si me quieres, no me recortes:
-&#10;¡Quiéreme toda… O no me quieras!"
-                   FontSize="20"
+
+            <!-- Montañas -->
+            <Label Text="⛰ Montañas"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0B3D91"/>
+            <Label Text="Los Alpes suizos ofrecen paisajes espectaculares, siendo un destino clave para el esquí, senderismo y turismo durante todo el año."
+                   FontSize="18"
                    TextColor="Black"
-                   HorizontalTextAlignment="Center"/>
+                   LineHeight="1.5"/>
+
+            <!-- Gastronomía -->
+            <Label Text="🍫 Gastronomía"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0B3D91"/>
+            <Label Text="El chocolate y los quesos suizos, como el Gruyère y el Emmental, son famosos mundialmente. La fondue y la raclette son platos tradicionales muy apreciados."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Fondue_in_a_traditional_Swiss_fondue_pot.JPG/320px-Fondue_in_a_traditional_Swiss_fondue_pot.JPG"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"/>
+
+            <!-- Cultura y Tradiciones -->
+            <Label Text="🏛 Cultura y Tradiciones"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0B3D91"/>
+            <Label Text="Suiza destaca por su neutralidad política, sus cuatro idiomas oficiales (alemán, francés, italiano y romanche) y una rica mezcla cultural reflejada en festivales y la relojería de precisión."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
         </VerticalStackLayout>
     </ScrollView>
-</ContentPage>
+</ContentPage
