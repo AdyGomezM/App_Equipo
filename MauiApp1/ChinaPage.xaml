@@ -3,24 +3,79 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MauiApp1"
              x:Class="MauiApp1.MiercolesPage"
-             Title="Miercoles">
+             Title="China"
+             BackgroundColor="#FFF8E1">
+
     <ScrollView>
-        <VerticalStackLayout Padding="20">
-            <Label Text="Sueños - Langston Hughes"
+        <VerticalStackLayout Padding="25" Spacing="25">
+
+            <!-- Bandera de China -->
+            <Image Source="https://flagcdn.com/w320/cn.png"
+                   HeightRequest="100"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="China: Cultura milenaria y tradiciones vivas"
                    FontSize="30"
-                   TextColor="#FF0E0E11"
+                   FontAttributes="Bold"
+                   TextColor="#D32F2F"
                    HorizontalTextAlignment="Center"/>
-            <Label Text="&#10;Aférrate a tus sueños
-&#10;porque si los sueños mueren
-&#10;la vida es como un pájaro de alas rotas
-&#10;incapaz de volar.
-&#10;Aférrate a tus sueños
-&#10;&#10;porque si los sueños se marchan
-&#10;la vida es como un campo yermo
-&#10;cubierto de escarcha."
-                   FontSize="20"
+
+            <!-- Costumbres -->
+            <Label Text="🧧 Costumbres"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#C62828"/>
+            <Label Text="En China es costumbre saludar con una leve inclinación de cabeza, ofrecer regalos con ambas manos y mostrar respeto a los ancianos. La puntualidad y la armonía son valores clave."
+                   FontSize="18"
                    TextColor="Black"
-                   HorizontalTextAlignment="Center"/>
+                   LineHeight="1.5"/>
+
+            <!-- Tradiciones -->
+            <Label Text="🎎 Tradiciones"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#C62828"/>
+            <Label Text="Celebraciones como el Año Nuevo Chino, el Festival de Medio Otoño y el Festival del Bote del Dragón son tradiciones que combinan historia, gastronomía y espiritualidad."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+
+            <!-- Lengua -->
+            <Label Text="🗣 Lengua"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#C62828"/>
+            <Label Text="El idioma oficial es el chino mandarín. Es una lengua tonal y logográfica, considerada una de las más antiguas y habladas del mundo."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+
+            <!-- Comida -->
+            <Label Text="🍜 Comida típica"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#C62828"/>
+            <Label Text="La cocina china es diversa: arroz frito, dumplings, pato pekinés, sopa agripicante y tallarines caseros son solo algunos ejemplos representativos."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/5/58/Peking_Duck_by_Gloria_Cabral.jpg"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"/>
+
+            <!-- Bailes -->
+            <Label Text="🧵 Bailes y música"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#C62828"/>
+            <Label Text="China tiene danzas tradicionales como la Danza del León, la Danza del Dragón y la Ópera de Pekín, que combinan movimientos, colores y música ancestral."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/7/7e/Lion_dance%2C_Chinatown%2C_London_-_20060129.jpg"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"/>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
