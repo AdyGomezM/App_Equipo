@@ -3,32 +3,61 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MauiApp1"
              x:Class="MauiApp1.LunesPage"
-             Title="Lunes">
+             Title="Bienvenidos a InformArte"
+             BackgroundColor="#EAF4FF">
+
     <ScrollView>
-        <VerticalStackLayout Padding="20">
-            <Label Text="El doliente - Oscar Hahn"
-                   FontSize="30"
-                   TextColor="#FF0E0E11"
+        <VerticalStackLayout Padding="25" Spacing="30">
+
+            <!-- Título principal -->
+            <Label Text="🌎 InformArte"
+                   FontSize="36"
+                   FontAttributes="Bold"
+                   TextColor="#1A73E8"
                    HorizontalTextAlignment="Center"/>
-            <Label Text="&#10;Pasarán estos días como pasan
-                &#10;todos los días malos de la vida
-                &#10;Amainarán los vientos que te arrasan
-                &#10;Se estancará la sangre de tu herida
-                &#10;&#10;El alma errante volverá a su nido
-&#10;Lo que ayer se perdió será encontrado
-&#10;El sol será sin mancha concebido
-&#10;y saldrá nuevamente en tu costado
-&#10;&#10;
-&#10;Y dirás frente al mar: ¿Cómo he podido
-&#10;anegado sin brújula y perdido
-&#10;llegar a puerto con las velas rotas?
-&#10;&#10;
-&#10;Y una voz te dirá: ¿Que no lo sabes?
-&#10;El mismo viento que rompió tus naves
-&#10;es el que hace volar a las gaviotas"
-                   FontSize="20"
-                   TextColor="Black"
+
+            <!-- Sección: Misión -->
+            <Label Text="🎯 Nuestra Misión"
+                   FontSize="26"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"
                    HorizontalTextAlignment="Center"/>
+
+            <Label Text="Inspirar a las personas a conocer, valorar y respetar la diversidad cultural del mundo, a través de información clara y accesible sobre seis países con tradiciones, costumbres y estilos de vida únicos."
+                   FontSize="18"
+                   TextColor="#333333"
+                   LineHeight="1.5"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <!-- Sección: Valores -->
+            <Label Text="💡 Nuestros Valores"
+                   FontSize="26"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label Text="🌍 Respeto por la diversidad
+🧠 Curiosidad por el conocimiento
+💬 Comunicación clara y honesta
+❤️ Empatía cultural
+✨ Inspiración para aprender y compartir"
+                   FontSize="18"
+                   TextColor="#333333"
+                   LineHeight="1.5"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <!-- Sección: ¿Qué es InformArte? -->
+            <Label Text="📚 ¿Qué es InformArte?"
+                   FontSize="26"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label Text="InformArte es una aplicación educativa y cultural que te lleva a un viaje por seis países fascinantes. Nuestro objetivo es abrir tu mente, enriquecer tu visión del mundo y ayudarte a descubrir lo hermoso de nuestras diferencias culturales."
+                   FontSize="18"
+                   TextColor="#333333"
+                   LineHeight="1.5"
+                   HorizontalOptions="FillAndExpand"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
