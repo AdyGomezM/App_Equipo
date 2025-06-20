@@ -1,8 +1,8 @@
 namespace MauiApp1;
 
-public partial class DomingoPage : ContentPage
+public partial class CoreaPage : ContentPage
 {
-	public DomingoPage()
+	public CoreaPage()
 	{
 		InitializeComponent();
   }

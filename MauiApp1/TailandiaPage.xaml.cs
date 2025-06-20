@@ -1,8 +1,8 @@
 namespace MauiApp1;
 
-public partial class ViernesPage : ContentPage
+public partial class TailandiaPage : ContentPage
 {
-	public ViernesPage()
+	public TailandiaPage()
 	{
 		InitializeComponent();
   }

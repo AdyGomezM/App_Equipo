@@ -1,8 +1,8 @@
 namespace MauiApp1;
 
-public partial class LunesPage : ContentPage
+public partial class InicioPage : ContentPage
 {
-	public LunesPage()
+	public InicioPage()
 	{
 		InitializeComponent();
   }

@@ -8,31 +8,31 @@
     Title="MauiApp1">
 
     <FlyoutItem Title="Inicio" Icon="monday.png">
-        <ShellContent ContentTemplate="{DataTemplate local:LunesPage}" />
+        <ShellContent ContentTemplate="{DataTemplate local:InicioPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Suiza" Icon="tuesday.png">
-        <ShellContent ContentTemplate="{DataTemplate local:MartesPage}" />
+        <ShellContent ContentTemplate="{DataTemplate local:SuizaPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="China" Icon="wednesday.png">
-        <ShellContent ContentTemplate="{DataTemplate local:MiercolesPage}" />
+        <ShellContent ContentTemplate="{DataTemplate local:ChinaPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Canada" Icon="thursday.png">
-        <ShellContent ContentTemplate="{DataTemplate local:JuevesPage}" />
+        <ShellContent ContentTemplate="{DataTemplate local:CanadaPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Tailandia" Icon="friday.png">
-        <ShellContent ContentTemplate="{DataTemplate local:ViernesPage}" />
+        <ShellContent ContentTemplate="{DataTemplate local:TailandiaPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Mexico" Icon="saturday.png">
-        <ShellContent ContentTemplate="{DataTemplate local:SabadoPage}" />
+        <ShellContent ContentTemplate="{DataTemplate local:MexicoPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Corea" Icon="sunday.png">
-        <ShellContent ContentTemplate="{DataTemplate local:DomingoPage}" />
+        <ShellContent ContentTemplate="{DataTemplate local:CoreaPage}" />
     </FlyoutItem>
 
 </Shell>

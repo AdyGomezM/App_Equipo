@@ -1,8 +1,8 @@
 namespace MauiApp1;
 
-public partial class SabadoPage : ContentPage
+public partial class MexicoPage : ContentPage
 {
-	public SabadoPage()
+	public MexicoPage()
 	{
 		InitializeComponent();
   }
