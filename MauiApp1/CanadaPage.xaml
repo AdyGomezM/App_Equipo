@@ -3,24 +3,79 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MauiApp1"
              x:Class="MauiApp1.JuevesPage"
-             Title="LJueveunes">
+             Title="Canadá"
+             BackgroundColor="#F0F8FF">
+
     <ScrollView>
-        <VerticalStackLayout Padding="20">
-            <Label Text="Amor eterno - Gustavo Adolfo Bécquer"
+        <VerticalStackLayout Padding="25" Spacing="25">
+
+            <!-- Bandera de Canadá -->
+            <Image Source="https://flagcdn.com/w320/ca.png"
+                   HeightRequest="100"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Canadá: Un país de diversidad y belleza"
                    FontSize="30"
-                   TextColor="#FF0E0E11"
+                   FontAttributes="Bold"
+                   TextColor="#D32F2F"
                    HorizontalTextAlignment="Center"/>
-            <Label Text="&#10;Podrá nublarse el sol eternamente;
-&#10;Podrá secarse en un instante el mar;
-&#10;Podrá romperse el eje de la tierra
-&#10;Como un débil cristal.
-&#10;&#10;¡todo sucederá! Podrá la muerte
-&#10;Cubrirme con su fúnebre crespón;
-&#10;Pero jamás en mí podrá apagarse
-&#10;La llama de tu amor."
-                   FontSize="20"
+
+            <!-- Costumbres -->
+            <Label Text="🧑‍🤝‍🧑 Costumbres"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="Canadá es conocido por su cortesía, respeto y tolerancia. Saludar con un apretón de manos es común, y pedir disculpas incluso por pequeñas cosas es parte de su cultura diaria."
+                   FontSize="18"
                    TextColor="Black"
-                   HorizontalTextAlignment="Center"/>
+                   LineHeight="1.5"/>
+
+            <!-- Tradiciones -->
+            <Label Text="🎉 Tradiciones"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="Entre sus tradiciones están el Día de Canadá (1 de julio), Acción de Gracias (octubre) y el Winterlude, un festival de invierno en Ottawa con esculturas de hielo y patinaje."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+
+            <!-- Lengua -->
+            <Label Text="🗣️ Lengua"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="Canadá es un país bilingüe. Sus idiomas oficiales son el inglés y el francés, siendo este último muy predominante en la provincia de Quebec."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+
+            <!-- Comida -->
+            <Label Text="🍁 Comida típica"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="Entre los platillos más representativos están el poutine (papas fritas con queso y gravy), la carne ahumada de Montreal y, por supuesto, el jarabe de arce."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/1/1f/Poutine_01.jpg"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"/>
+
+            <!-- Bailes -->
+            <Label Text="💃 Bailes y música"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="Canadá celebra danzas tradicionales como el 'Step Dance' en Nueva Escocia y la música folklórica francesa en Quebec. Además, se destaca por su escena de música moderna y festivales como el Festival de Jazz de Montreal."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/3/37/Montreal_Jazz_Festival_2006.jpg"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"/>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
