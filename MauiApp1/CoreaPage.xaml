@@ -3,24 +3,79 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MauiApp1"
              x:Class="MauiApp1.DomingoPage"
-             Title="Domingo">
-  <ScrollView>
-    <VerticalStackLayout Padding="20">
-      <Label Text="Mi árbol pequeño - Antonio García Teijeiro"
-             FontSize="30"
-             TextColor="#FF0E0E11"
-             HorizontalTextAlignment="Center"/>
-      <Label Text="&#10;Mi árbol tenía
-&#10;sus ramas de oro.
-&#10;Un viento envidioso
-&#10;robó mi tesoro.
-&#10;&#10;Hoy no tiene ramas
-&#10;Hoy no tiene sueños
-&#10;mi árbol callado
-&#10;mi árbol pequeño."
-             FontSize="20"
-             TextColor="Black"
-             HorizontalTextAlignment="Center"/>
-    </VerticalStackLayout>
-  </ScrollView>
+             Title="Corea del Sur"
+             BackgroundColor="#E3F2FD">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="25">
+
+            <!-- Bandera de Corea del Sur -->
+            <Image Source="https://flagcdn.com/w320/kr.png"
+                   HeightRequest="100"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Corea del Sur: Innovación y tradición milenaria"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="#1565C0"
+                   HorizontalTextAlignment="Center"/>
+
+            <!-- Costumbres -->
+            <Label Text="🤝 Costumbres"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="Corea del Sur valora el respeto a los mayores, el trabajo en comunidad y las buenas maneras. Es habitual hacer reverencias y entregar cosas con ambas manos."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+
+            <!-- Tradiciones -->
+            <Label Text="🎊 Tradiciones"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="Se celebran el Seollal (Año Nuevo Lunar), el Chuseok (acción de gracias) y festivales tradicionales con ropa hanbok, juegos típicos y reuniones familiares."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+
+            <!-- Lengua -->
+            <Label Text="🗣 Lengua"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="El idioma coreano se escribe en Hangul, un alfabeto creado en 1443. Es considerado muy lógico y fácil de aprender en comparación con otros sistemas de escritura."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+
+            <!-- Comida -->
+            <Label Text="🍱 Comida típica"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="Alimentos como el kimchi, bulgogi (carne marinada), bibimbap (arroz con vegetales) y ramyeon (sopa de fideos) forman parte de su rica gastronomía."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/7/7b/Korean.cuisine-Bibimbap-02.jpg"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"/>
+
+            <!-- Bailes -->
+            <Label Text="💃 Bailes y música"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#0D47A1"/>
+            <Label Text="La danza del abanico (Buchaechum) y la música tradicional coreana se mantienen vivas junto con el K-pop, que ha llevado la cultura coreana al mundo entero."
+                   FontSize="18"
+                   TextColor="Black"
+                   LineHeight="1.5"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/3/36/Korea-Buchaechum-FanDance-01.jpg"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
