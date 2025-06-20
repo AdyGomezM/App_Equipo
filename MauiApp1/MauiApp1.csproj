@@ -65,7 +65,28 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="DomingoPage.xaml">
+	  <Compile Update="CanadaPage.xaml.cs">
+	    <DependentUpon>CanadaPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="CoreaPage.xaml.cs">
+	    <DependentUpon>CoreaPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="ChinaPage.xaml.cs">
+	    <DependentUpon>ChinaPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="MexicoPage.xaml.cs">
+	    <DependentUpon>MexicoPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="SuizaPage.xaml.cs">
+	    <DependentUpon>SuizaPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="TailandiaPage.xaml.cs">
+	    <DependentUpon>TailandiaPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="CoreaPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
